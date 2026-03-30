@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Ordered Items</title>
+    <style>
+        table {
+            background-color: lightblue;
+            border-collapse: collapse;
+            width: 70%;
+            margin: auto;
+        }
+
+        th {
+            font-size: 14pt;
+            font-weight: bold;
+            background-color: #87CEEB;
+            padding: 8px;
+        }
+
+        td {
+            font-size: 12pt;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 8px;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: lightyellow;
+        }
+
+        tr:nth-child(odd) {
+            background-color: lightgreen;
+        }
+
+        h2 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        ol {
+            font-family: Arial, sans-serif;
+            font-size: 12pt;
+            background-color: lightblue;
+            padding: 10px;
+            width: 200px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Customer Ordered Items</h2>
+        <table border="1">
+            <tr>
+                <th>Item Code</th>
+                <th>Item Name</th>
+                <th>Unit Price</th>
+                <th>Ordered Quantity</th>
+            </tr>
+
+            <tr>
+                <td>101</td>
+                <td>Shampoo</td>
+                <td>₹150</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <td>104</td>
+                <td>Biscuits</td>
+                <td>₹30</td>
+                <td>5</td>
+            </tr>
+        </table>
+
+        <h2>Order Summary</h2>
+        <ol>
+            <li>Item Code: 101 - Shampoo</li>
+            <li>Item Code: 104 - Biscuits</li>
+        </ol>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "books.dtd">
+<library>
+    <Book code="B001">
+        <Title>Computer Science</Title>
+        <Author>John Smith</Author>
+        <Author>Jane Doe</Author>
+        <Year>2018</Year>
+        <Publisher>Pearson Education</Publisher>
+    </Book>
+
+    <Book code="B002">
+        <Title>Data Structure and Algorithms</Title>
+        <Author>Mark Johnson</Author>
+        <Year>2020</Year>
+        <Publisher>McGraw Hill</Publisher>
+    </Book>
+
+    <Book code="B003">
+        <Title>Database Management Systems</Title>
+        <Author>Korth</Author>
+        <Author>Silberschatz</Author>
+        <Year>2016</Year>
+        <Publisher>McGraw Hill</Publisher>
+    </Book>
+
+    <Book code="B004">
+        <Title>Artificial Intelligence: A Modern Approach</Title>
+        <Author>Stuart Russell</Author>
+        <Author>Peter Norvig</Author>
+        <Year>2021</Year>
+        <Publisher>Pearson</Publisher>
+    </Book>
+
+     <Book code="B005">
+        <Title>Operating System Concepts</Title>
+        <Author>Abraham Silberschatz</Author>
+        <Author>Greg Gagne</Author>
+        <Year>2019</Year>
+        <Publisher>Vilen</Publisher>
+    </Book>
+</library>
+
